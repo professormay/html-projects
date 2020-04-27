@@ -1,0 +1,70 @@
+<style>
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+  </style>
+
+body {
+    background-color: rgb(205, 219, 230);
+    text-align: justify;
+    font-size: 0,5em;
+    font-family: sans-serif;
+}
+.title {
+    background-color:rgb(66, 66, 150);
+    width: fit-content;
+    color: greenyellow;
+    font-weight: 400;
+}
+.subtitle {
+    color: green;
+}
+#contact-us {
+    color: green;
+}
+h2:hover {
+    color: blue;
+}
+li:first-child {
+    color: red; 
+}
+li:nth-child(2) {
+    color: blue;
+}
+/* #wiki-link:link {
+    color: greenyellow;
+}
+#wiki-link:visited {
+    color: orange; */
+}
+h2 + a {
+    color: olivedrab;
+}
+h2 ~ p {
+    color: purple;
+}
+ul > li {
+    color: blue;
+}
+ol li {
+    color: blueviolet;
+}
+p[class=biography] {
+    color: green;
+}
+.image {
+     height: 300px; 
+     width: 200px; 
+}
+.biography {
+    font-style: oblique;
+}
+.paragraph {
+    font-family: "Times New Roman", sans-serif;
+}
+.list-item {
+    font-family: "Times New Roman", sans-serif;
+}
